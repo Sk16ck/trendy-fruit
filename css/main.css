@@ -6,8 +6,52 @@
 
 html {
   box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+}
+
+p {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+.persimmon {
+  background-color: #e86033;
+}
+
+.starfruit {
+  background-color: #fbd25e;
+}
+
+.watermelon {
+
+  background-color: #e97065;
+}
+
+h2.persimmon {
+  font-family: Comfortaa, cursive;
+}
+
+h2.starfruit {
+  font-family: "Gravitas One", cursive;
+}
+
+h2.watermelon {
+  font-family: "Rammetto One", cursive;
 }
